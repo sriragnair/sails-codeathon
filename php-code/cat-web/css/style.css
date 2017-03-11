@@ -8,49 +8,56 @@ box-sizing: border-box;
 	outline: none;
 }
 body {
-font-family: Arial;
-background-color: #3498DB;
-padding: 50px;
+  font-family: Arial;
+  background-color: #3498DB;
+  padding: 50px;
+}
+.banner {
+  margin: 20px auto;
+}
+.banner-screen {
+  background-color: #f1c9ae;
+  padding: 20px;
+  border-radius: 5px
 }
 .login {
-margin: 20px auto;
-width: 300px;
+  margin: 20px auto;
+  width: 300px;
 }
 .login-screen {
-background-color: #FFF;
-padding: 20px;
-border-radius: 5px
+  background-color: #FFF;
+  padding: 20px;
+  border-radius: 5px
 }
-
 .app-title {
-text-align: center;
-color: #777;
+  text-align: center;
+  color: #777;
 }
-
-.login-form {
-text-align: center;
+.app-title-white {
+  text-align: center;
+  color: #fff;
+}
+.center-form {
+  text-align: center;
 }
 .control-group {
-margin-bottom: 10px;
+  margin-bottom: 10px;
 }
-
 input {
-text-align: center;
-background-color: #ECF0F1;
-border: 2px solid transparent;
-border-radius: 3px;
-font-size: 16px;
-font-weight: 200;
-padding: 10px 0;
-width: 250px;
-transition: border .5s;
+  text-align: center;
+  background-color: #ECF0F1;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 200;
+  padding: 10px 0;
+  width: 250px;
+  transition: border .5s;
 }
-
 input:focus {
-border: 2px solid #3498DB;
-box-shadow: none;
+  border: 2px solid #3498DB;
+  box-shadow: none;
 }
-
 .btn {
   border: 2px solid transparent;
   background: #3498DB;
@@ -68,14 +75,13 @@ box-shadow: none;
   margin: 0 auto;
   cursor: pointer;
 }
-
 .btn:hover {
   background-color: #2980B9;
 }
-
 .login-link {
   font-size: 12px;
-  color: #444;
+  color: #f00 ;
   display: block;
 	margin-top: 12px;
+  text-align: left;
 }

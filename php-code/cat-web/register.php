@@ -70,19 +70,54 @@ if(isset($_POST['submit-form'])) {
 
 <html>
 <head>
-	<title>Registration</title>
+	<title>.:: Sails || Code-a-thon ::.</title>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-	<?php echo ($error != "") ? $error : ""; ?>
-	<form action="register.php" method="post">
-
-	Username: <input type="text" value="<?php echo $username; ?>" name="username" /><br/>
-	Password: <input type="password" value="<?php echo $password; ?>" name="password" /><br/>
-	Password (confirm): <input type="password" value="<?php echo $password_confirm; ?>" name="password-confirm" /><br/>
-	First Name: <input type="text" value="<?php echo $firstname; ?>" name="firstname" /><br/>
-    Last Name: <input type="text" value="<?php echo $lastname; ?>" name="lastname" /><br/>
-	<input type="submit" value="Register" name="submit-form" />
-
-	</form>
+	<div class="banner">
+		<div class="banner-screen">
+			<div class="app-title-white">
+				<h1>SAILS CODE-A-THON</h1>
+			</div>
+		</div>
+	</div>
+	<div class="login">
+		<div class="login-screen">
+			<div class="app-title">
+				<h1>Register</h1>
+			</div>
+			<form action="register.php" method="post">
+				<div class="center-form">
+					<div class="control-group">
+						<input type="text" class="login-field" placeholder="First Name" id="first-name" name="firstname" value="<?php echo $firstname; ?>"/>
+						<label class="login-field-icon fui-user" for="login-name"></label>
+					</div>
+					<div class="control-group">
+						<input type="text" class="login-field" placeholder="Last Name" id="last-name" name="lastname" value="<?php echo $lastname; ?>"/>
+						<label class="login-field-icon fui-user" for="login-name"></label>
+					</div>
+					<div class="control-group">
+						<input type="text" class="login-field" placeholder="Username" id="login-name" name="username" value="<?php echo $username; ?>"/>
+						<label class="login-field-icon fui-user" for="login-name"></label>
+					</div>
+					<div class="control-group">
+						<input type="password" class="login-field" placeholder="Password" id="login-pass" name="password" value="<?php echo $password; ?>"/>
+						<label class="login-field-icon fui-lock" for="login-pass"></label>
+					</div>
+					<div class="control-group">
+						<input type="password" class="login-field" placeholder="Confirm Password" id="login-repass" name="password-confirm" value="<?php echo $$password_confirm; ?>"/>
+						<label class="login-field-icon fui-lock" for="login-pass"></label>
+					</div>
+					<input type="submit" class="btn" name="submit-form" value="Register" >
+					<?php
+						if($error != "")
+						{
+							echo "<a class=\"login-link\" href=\"#\">" . $error . "<br/>" . "</a>";
+						}
+					?>
+				</div>
+			</form>
+		</div>
+	</div>
 </body>
 </html>

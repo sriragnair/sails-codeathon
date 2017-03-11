@@ -12,7 +12,6 @@ if(isset($_POST['submit-login'])) {
  
 	$username = $_POST['username'];
 	$password = $_POST['password'];
-	echo "posted";
 	$userTools = new UserTools();
 	if($userTools->login($username, $password)){
 		//successful login, redirect them to a page
@@ -30,19 +29,20 @@ if(isset($_POST['submit-login'])) {
 		<link rel="stylesheet" href="css/style.css"/>
 	</head>
 	<body>
-		<?php
-		if($error != "")
-		{
-			echo $error."<br/>";
-		}
-		?>
+		<div class="banner">
+			<div class="banner-screen">
+				<div class="app-title-white">
+					<h1>SAILS CODE-A-THON</h1>
+				</div>
+			</div>
+		</div>
 		<div class="login">
 			<div class="login-screen">
 				<div class="app-title">
 					<h1>Login</h1>
 				</div>
 				<form action="login.php" method="post">
-					<div class="login-form">
+					<div class="center-form">
 						<div class="control-group">
 							<input type="text" class="login-field" placeholder="Username" id="login-name" name="username" value="<?php echo $username; ?>"/>
 							<label class="login-field-icon fui-user" for="login-name"></label>
@@ -52,6 +52,12 @@ if(isset($_POST['submit-login'])) {
 							<label class="login-field-icon fui-lock" for="login-pass"></label>
 						</div>
 						<input type="submit" class="btn" name="submit-login" value="Login" >
+						<?php
+							if($error != "")
+							{
+								echo "<a class=\"login-link\" href=\"#\">" . $error . "<br/>" . "</a>";
+							}
+						?>
 					</div>
 				</form>
 			</div>
