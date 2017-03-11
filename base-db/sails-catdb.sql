@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 11, 2017 at 07:17 AM
+-- Generation Time: Mar 11, 2017 at 09:14 AM
 -- Server version: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -30,19 +30,19 @@ USE `sails-catdb`;
 
 DROP TABLE IF EXISTS `sc_users`;
 CREATE TABLE IF NOT EXISTS `sc_users` (
-  `ID` int(11) NOT NULL AUTO_INCREMENT,
-  `FirstName` varchar(50) NOT NULL,
-  `LastName` varchar(50) NOT NULL,
-  `Username` varchar(20) NOT NULL,
-  `Password` varchar(20) NOT NULL,
-  PRIMARY KEY (`ID`)
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `firstname` varchar(50) NOT NULL,
+  `lastname` varchar(50) NOT NULL,
+  `username` varchar(20) NOT NULL,
+  `password` varchar(20) NOT NULL,
+  PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `sc_users`
 --
 
-INSERT INTO `sc_users` (`ID`, `FirstName`, `LastName`, `Username`, `Password`) VALUES
+INSERT INTO `sc_users` (`id`, `firstname`, `lastname`, `username`, `password`) VALUES
 (1, 'Srirag', 'Nair', 'srirag', 'sails@123'),
 (2, 'Pavan', 'Kumar', 'pavan', 'sails@123'),
 (3, 'Kiran', 'AVK', 'avkkiran', 'sails@123'),
