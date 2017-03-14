@@ -16,7 +16,7 @@ app.secret_key = 'pavanarya'
 app.config['SESSION_TYPE'] = 'filesystem'
 
 
-@app.route('/')
+@app.route('/', methods=['GET', 'POST']
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
