@@ -1,5 +1,5 @@
 from flask import Flask, render_template,Response,jsonify,session,redirect,make_response
-from Database import *
+from database import *
 import json
 from flask import request
 
