@@ -1,7 +1,6 @@
 import MySQLdb
 import re
 from ConfigParser import ConfigParser
-from SendEmail import *
 import time
 
 
