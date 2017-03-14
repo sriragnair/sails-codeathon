@@ -2,11 +2,8 @@
 
 Base framework code for java based web-app
 
-1. Find the war file SailsCodethon.war in java-code/SailsCodethon/build folder.
-2. Copy the war file to TOMCAT_HOME/webapps directory (TOMCAT_HOME is the root folder of tomcat. Here in my case is apache-tomcat-8.5.11).
-3. Make sure TOMCAT_HOME/conf/server.xml has the below line.
-<Host name="localhost"  appBase="webapps"
-            unpackWARs="true" autoDeploy="true">
-3. Go to TOMCAT_HOME and start the tomcat server by executing the below lines.
-cd bin
-./startup.sh
+1. Import the project into eclipse by right clicking on Project Explorer -> Import and in the dialog box select General -> Existing projects into workspace.
+2. Select root directory as SailsCodethon and click Finish.
+3. Add tomcat to your eclipse workspace and Run your project on server by right clicking on your project and select Run as -> Run on Server.
+4. If you encounter mysql issues after deploying the application, add mysql-connector.jar to runtime environment classpath by following the below steps.
+4.1. Right click on your project and select Run as -> Run Configurations and in the dialog select classpath and add mysql-connector.jar as external jar to user entries.
