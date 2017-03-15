@@ -8,8 +8,9 @@ require_once 'classes/DB.class.php';
 
 //connect to the database
 $db = new DB();
-$db->connect();
-
+$conn = $db->connect();
+//error_log($conn);
+//$conn = $db->getConn();
 //initialize UserTools object
 $userTools = new UserTools();
 

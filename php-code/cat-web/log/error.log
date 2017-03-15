@@ -1,0 +1,110 @@
+[Wed Mar 15 15:50:35.449135 2017] [:error] [pid 14170] [client 127.0.0.1:34754] srirag, referer: http://cat-web/login.php
+[Wed Mar 15 15:50:35.449166 2017] [:error] [pid 14170] [client 127.0.0.1:34754] sails@123, referer: http://cat-web/login.php
+[Wed Mar 15 15:50:35.449175 2017] [:error] [pid 14170] [client 127.0.0.1:34754] , referer: http://cat-web/login.php
+[Wed Mar 15 15:54:12.555926 2017] [:error] [pid 14169] [client 127.0.0.1:34798] srirag, referer: http://cat-web/login.php
+[Wed Mar 15 15:54:12.555954 2017] [:error] [pid 14169] [client 127.0.0.1:34798] sails@123, referer: http://cat-web/login.php
+[Wed Mar 15 15:54:12.555958 2017] [:error] [pid 14169] [client 127.0.0.1:34798] , referer: http://cat-web/login.php
+[Wed Mar 15 15:54:12.555965 2017] [:error] [pid 14169] [client 127.0.0.1:34798] , referer: http://cat-web/login.php
+[Wed Mar 15 15:56:30.205221 2017] [:error] [pid 14177] [client 127.0.0.1:34826] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/sails/Desktop/sails-codeathon/php-code/cat-web/classes/DB.class.php:15\nStack trace:\n#0 /home/sails/Desktop/sails-codeathon/php-code/cat-web/includes/global.inc.php(11): DB->connect()\n#1 /home/sails/Desktop/sails-codeathon/php-code/cat-web/login.php(4): require_once('/home/sails/Des...')\n#2 {main}\n  thrown in /home/sails/Desktop/sails-codeathon/php-code/cat-web/classes/DB.class.php on line 15
+[Wed Mar 15 16:19:29.787808 2017] [:error] [pid 14902] [client 127.0.0.1:35178] srirag, referer: http://cat-web/login.php
+[Wed Mar 15 16:19:29.787837 2017] [:error] [pid 14902] [client 127.0.0.1:35178] srirag@123, referer: http://cat-web/login.php
+[Wed Mar 15 16:19:29.787841 2017] [:error] [pid 14902] [client 127.0.0.1:35178] , referer: http://cat-web/login.php
+[Wed Mar 15 16:19:29.787849 2017] [:error] [pid 14902] [client 127.0.0.1:35178] , referer: http://cat-web/login.php
+[Wed Mar 15 16:19:29.787879 2017] [:error] [pid 14902] [client 127.0.0.1:35178] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/sails/Desktop/sails-codeathon/php-code/cat-web/classes/UserTools.class.php:21\nStack trace:\n#0 /home/sails/Desktop/sails-codeathon/php-code/cat-web/login.php(16): UserTools->login('srirag', 'srirag@123')\n#1 {main}\n  thrown in /home/sails/Desktop/sails-codeathon/php-code/cat-web/classes/UserTools.class.php on line 21, referer: http://cat-web/login.php
+[Wed Mar 15 16:20:29.787296 2017] [:error] [pid 14173] [client 127.0.0.1:35200] srirag, referer: http://cat-web/login.php
+[Wed Mar 15 16:20:29.787392 2017] [:error] [pid 14173] [client 127.0.0.1:35200] sails@123, referer: http://cat-web/login.php
+[Wed Mar 15 16:20:29.787398 2017] [:error] [pid 14173] [client 127.0.0.1:35200] , referer: http://cat-web/login.php
+[Wed Mar 15 16:20:29.787403 2017] [:error] [pid 14173] [client 127.0.0.1:35200] , referer: http://cat-web/login.php
+[Wed Mar 15 16:21:33.740698 2017] [:error] [pid 14169] [client 127.0.0.1:35216] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home/sails/Desktop/sails-codeathon/php-code/cat-web/classes/UserTools.class.php:16\nStack trace:\n#0 /home/sails/Desktop/sails-codeathon/php-code/cat-web/login.php(16): UserTools->login('srirag', 'sails@123')\n#1 {main}\n  thrown in /home/sails/Desktop/sails-codeathon/php-code/cat-web/classes/UserTools.class.php on line 16, referer: http://cat-web/login.php
+[Wed Mar 15 16:24:37.890001 2017] [:error] [pid 14572] [client 127.0.0.1:35242] srirag, referer: http://cat-web/login.php
+[Wed Mar 15 16:24:37.890038 2017] [:error] [pid 14572] [client 127.0.0.1:35242] sails@123, referer: http://cat-web/login.php
+[Wed Mar 15 16:24:37.890054 2017] [:error] [pid 14572] [client 127.0.0.1:35242] , referer: http://cat-web/login.php
+[Wed Mar 15 16:24:37.890060 2017] [:error] [pid 14572] [client 127.0.0.1:35242] , referer: http://cat-web/login.php
+[Wed Mar 15 16:26:33.310010 2017] [:error] [pid 14902] [client 127.0.0.1:35264] srirag, referer: http://cat-web/login.php
+[Wed Mar 15 16:26:33.310027 2017] [:error] [pid 14902] [client 127.0.0.1:35264] sails@123, referer: http://cat-web/login.php
+[Wed Mar 15 16:26:33.310034 2017] [:error] [pid 14902] [client 127.0.0.1:35264] , referer: http://cat-web/login.php
+[Wed Mar 15 16:26:33.310041 2017] [:error] [pid 14902] [client 127.0.0.1:35264] , referer: http://cat-web/login.php
+[Wed Mar 15 16:27:27.375820 2017] [:error] [pid 14901] [client 127.0.0.1:35278] srirag, referer: http://cat-web/login.php
+[Wed Mar 15 16:27:27.375843 2017] [:error] [pid 14901] [client 127.0.0.1:35278] sails@123, referer: http://cat-web/login.php
+[Wed Mar 15 16:27:27.375847 2017] [:error] [pid 14901] [client 127.0.0.1:35278] , referer: http://cat-web/login.php
+[Wed Mar 15 16:27:27.375855 2017] [:error] [pid 14901] [client 127.0.0.1:35278] , referer: http://cat-web/login.php
+[Wed Mar 15 16:28:57.978927 2017] [:error] [pid 14169] [client 127.0.0.1:35302] srirag, referer: http://cat-web/login.php
+[Wed Mar 15 16:28:57.978944 2017] [:error] [pid 14169] [client 127.0.0.1:35302] sails@123, referer: http://cat-web/login.php
+[Wed Mar 15 16:28:57.978947 2017] [:error] [pid 14169] [client 127.0.0.1:35302] , referer: http://cat-web/login.php
+[Wed Mar 15 16:28:57.978953 2017] [:error] [pid 14169] [client 127.0.0.1:35302] , referer: http://cat-web/login.php
+[Wed Mar 15 16:30:35.728427 2017] [:error] [pid 14572] [client 127.0.0.1:35320] srirag, referer: http://cat-web/login.php
+[Wed Mar 15 16:30:35.728444 2017] [:error] [pid 14572] [client 127.0.0.1:35320] sails@123, referer: http://cat-web/login.php
+[Wed Mar 15 16:30:35.728446 2017] [:error] [pid 14572] [client 127.0.0.1:35320] , referer: http://cat-web/login.php
+[Wed Mar 15 16:30:35.728452 2017] [:error] [pid 14572] [client 127.0.0.1:35320] , referer: http://cat-web/login.php
+[Wed Mar 15 16:31:18.758892 2017] [:error] [pid 14902] [client 127.0.0.1:35332] localhost, referer: http://cat-web/login.php
+[Wed Mar 15 16:33:57.931972 2017] [:error] [pid 14173] [client 127.0.0.1:35374] , referer: http://cat-web/login.php
+[Wed Mar 15 16:34:56.776440 2017] [:error] [pid 16585] [client 127.0.0.1:35388] , referer: http://cat-web/login.php
+[Wed Mar 15 16:35:10.631856 2017] [:error] [pid 16583] [client 127.0.0.1:35392] , referer: http://cat-web/login.php
+[Wed Mar 15 16:38:40.646839 2017] [:error] [pid 16586] [client 127.0.0.1:35446] COnn: , referer: http://cat-web/login.php
+[Wed Mar 15 16:38:40.646874 2017] [:error] [pid 16586] [client 127.0.0.1:35446] Result: , referer: http://cat-web/login.php
+[Wed Mar 15 16:39:17.286009 2017] [:error] [pid 16583] [client 127.0.0.1:35452] , referer: http://cat-web/login.php
+[Wed Mar 15 16:39:17.286047 2017] [:error] [pid 16583] [client 127.0.0.1:35452] Result: , referer: http://cat-web/login.php
+[Wed Mar 15 16:47:28.651697 2017] [:error] [pid 17216] [client 127.0.0.1:36122] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/sails/Desktop/sails-codeathon/php-code/cat-web/classes/DB.class.php:13\nStack trace:\n#0 /home/sails/Desktop/sails-codeathon/php-code/cat-web/includes/global.inc.php(11): DB->connect()\n#1 /home/sails/Desktop/sails-codeathon/php-code/cat-web/login.php(4): require_once('/home/sails/Des...')\n#2 {main}\n  thrown in /home/sails/Desktop/sails-codeathon/php-code/cat-web/classes/DB.class.php on line 13
+[Wed Mar 15 16:52:31.641533 2017] [:error] [pid 17423] [client 127.0.0.1:36252] Result: , referer: http://cat-web/login.php
+[Wed Mar 15 16:54:32.094739 2017] [:error] [pid 17214] [client 127.0.0.1:36314] Result: , referer: http://cat-web/login.php
+[Wed Mar 15 17:46:31.514023 2017] [:error] [pid 24406] [client 127.0.0.1:36814] Result: , referer: http://cat-web/login.php
+[Wed Mar 15 17:48:17.962568 2017] [:error] [pid 24396] [client 127.0.0.1:36842] script '/home/sails/Desktop/sails-codeathon/php-code/cat-web/testDB.php' not found or unable to stat
+[Wed Mar 15 17:48:26.394408 2017] [:error] [pid 24397] [client 127.0.0.1:36844] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'sails' in /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php on line 2
+[Wed Mar 15 17:48:26.394431 2017] [:error] [pid 24397] [client 127.0.0.1:36844] PHP Stack trace:
+[Wed Mar 15 17:48:26.394440 2017] [:error] [pid 24397] [client 127.0.0.1:36844] PHP   1. {main}() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:0
+[Wed Mar 15 17:48:26.394443 2017] [:error] [pid 24397] [client 127.0.0.1:36844] PHP   2. mysqli_connect() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:2
+[Wed Mar 15 17:51:32.550868 2017] [:error] [pid 24406] [client 127.0.0.1:36938] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php on line 10
+[Wed Mar 15 17:51:32.550903 2017] [:error] [pid 24406] [client 127.0.0.1:36938] PHP Stack trace:
+[Wed Mar 15 17:51:32.550908 2017] [:error] [pid 24406] [client 127.0.0.1:36938] PHP   1. {main}() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:0
+[Wed Mar 15 17:52:06.776004 2017] [:error] [pid 24395] [client 127.0.0.1:36948] PHP Warning:  json_decode() expects parameter 1 to be string, object given in /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php on line 10
+[Wed Mar 15 17:52:06.776027 2017] [:error] [pid 24395] [client 127.0.0.1:36948] PHP Stack trace:
+[Wed Mar 15 17:52:06.776032 2017] [:error] [pid 24395] [client 127.0.0.1:36948] PHP   1. {main}() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:0
+[Wed Mar 15 17:52:06.776035 2017] [:error] [pid 24395] [client 127.0.0.1:36948] PHP   2. json_decode() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:10
+[Wed Mar 15 17:52:37.344371 2017] [:error] [pid 24396] [client 127.0.0.1:36958] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'sails_db'@'localhost' (using password: YES) in /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php on line 2
+[Wed Mar 15 17:52:37.344391 2017] [:error] [pid 24396] [client 127.0.0.1:36958] PHP Stack trace:
+[Wed Mar 15 17:52:37.344395 2017] [:error] [pid 24396] [client 127.0.0.1:36958] PHP   1. {main}() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:0
+[Wed Mar 15 17:52:37.344399 2017] [:error] [pid 24396] [client 127.0.0.1:36958] PHP   2. mysqli_connect() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:2
+[Wed Mar 15 17:52:37.344417 2017] [:error] [pid 24396] [client 127.0.0.1:36958] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php on line 8
+[Wed Mar 15 17:52:37.344420 2017] [:error] [pid 24396] [client 127.0.0.1:36958] PHP Stack trace:
+[Wed Mar 15 17:52:37.344423 2017] [:error] [pid 24396] [client 127.0.0.1:36958] PHP   1. {main}() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:0
+[Wed Mar 15 17:52:37.344426 2017] [:error] [pid 24396] [client 127.0.0.1:36958] PHP   2. mysqli_query() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:8
+[Wed Mar 15 17:52:37.344433 2017] [:error] [pid 24396] [client 127.0.0.1:36958] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php on line 11
+[Wed Mar 15 17:52:37.344435 2017] [:error] [pid 24396] [client 127.0.0.1:36958] PHP Stack trace:
+[Wed Mar 15 17:52:37.344438 2017] [:error] [pid 24396] [client 127.0.0.1:36958] PHP   1. {main}() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:0
+[Wed Mar 15 17:52:37.344440 2017] [:error] [pid 24396] [client 127.0.0.1:36958] PHP   2. mysqli_close() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:11
+[Wed Mar 15 17:52:45.232694 2017] [:error] [pid 24397] [client 127.0.0.1:36960] PHP Warning:  json_decode() expects parameter 1 to be string, object given in /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php on line 10
+[Wed Mar 15 17:52:45.232718 2017] [:error] [pid 24397] [client 127.0.0.1:36960] PHP Stack trace:
+[Wed Mar 15 17:52:45.232723 2017] [:error] [pid 24397] [client 127.0.0.1:36960] PHP   1. {main}() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:0
+[Wed Mar 15 17:52:45.232726 2017] [:error] [pid 24397] [client 127.0.0.1:36960] PHP   2. json_decode() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:10
+[Wed Mar 15 17:53:30.073643 2017] [:error] [pid 24393] [client 127.0.0.1:37026] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'sails_db'@'localhost' (using password: YES) in /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php on line 2
+[Wed Mar 15 17:53:30.073671 2017] [:error] [pid 24393] [client 127.0.0.1:37026] PHP Stack trace:
+[Wed Mar 15 17:53:30.073677 2017] [:error] [pid 24393] [client 127.0.0.1:37026] PHP   1. {main}() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:0
+[Wed Mar 15 17:53:30.073680 2017] [:error] [pid 24393] [client 127.0.0.1:37026] PHP   2. mysqli_connect() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:2
+[Wed Mar 15 17:53:30.073707 2017] [:error] [pid 24393] [client 127.0.0.1:37026] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php on line 8
+[Wed Mar 15 17:53:30.073710 2017] [:error] [pid 24393] [client 127.0.0.1:37026] PHP Stack trace:
+[Wed Mar 15 17:53:30.073713 2017] [:error] [pid 24393] [client 127.0.0.1:37026] PHP   1. {main}() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:0
+[Wed Mar 15 17:53:30.073716 2017] [:error] [pid 24393] [client 127.0.0.1:37026] PHP   2. mysqli_query() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:8
+[Wed Mar 15 17:53:30.073727 2017] [:error] [pid 24393] [client 127.0.0.1:37026] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php on line 11
+[Wed Mar 15 17:53:30.073730 2017] [:error] [pid 24393] [client 127.0.0.1:37026] PHP Stack trace:
+[Wed Mar 15 17:53:30.073732 2017] [:error] [pid 24393] [client 127.0.0.1:37026] PHP   1. {main}() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:0
+[Wed Mar 15 17:53:30.073735 2017] [:error] [pid 24393] [client 127.0.0.1:37026] PHP   2. mysqli_close() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:11
+[Wed Mar 15 17:56:47.831640 2017] [:error] [pid 25140] [client 127.0.0.1:37080] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php on line 11
+[Wed Mar 15 17:56:47.831671 2017] [:error] [pid 25140] [client 127.0.0.1:37080] PHP Stack trace:
+[Wed Mar 15 17:56:47.831677 2017] [:error] [pid 25140] [client 127.0.0.1:37080] PHP   1. {main}() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:0
+[Wed Mar 15 17:56:47.831681 2017] [:error] [pid 25140] [client 127.0.0.1:37080] PHP   2. json_decode() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:11
+[Wed Mar 15 17:57:02.094862 2017] [:error] [pid 24404] [client 127.0.0.1:37088] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php on line 11
+[Wed Mar 15 17:57:02.094883 2017] [:error] [pid 24404] [client 127.0.0.1:37088] PHP Stack trace:
+[Wed Mar 15 17:57:02.094887 2017] [:error] [pid 24404] [client 127.0.0.1:37088] PHP   1. {main}() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:0
+[Wed Mar 15 17:57:02.094891 2017] [:error] [pid 24404] [client 127.0.0.1:37088] PHP   2. json_decode() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:11
+[Wed Mar 15 17:57:37.264725 2017] [:error] [pid 24396] [client 127.0.0.1:37106] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php on line 11
+[Wed Mar 15 17:57:37.264748 2017] [:error] [pid 24396] [client 127.0.0.1:37106] PHP Stack trace:
+[Wed Mar 15 17:57:37.264752 2017] [:error] [pid 24396] [client 127.0.0.1:37106] PHP   1. {main}() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:0
+[Wed Mar 15 17:57:37.264756 2017] [:error] [pid 24396] [client 127.0.0.1:37106] PHP   2. json_decode() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:11
+[Wed Mar 15 17:58:03.585658 2017] [:error] [pid 24393] [client 127.0.0.1:37114] PHP Notice:  Array to string conversion in /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php on line 11
+[Wed Mar 15 17:58:03.585679 2017] [:error] [pid 24393] [client 127.0.0.1:37114] PHP Stack trace:
+[Wed Mar 15 17:58:03.585683 2017] [:error] [pid 24393] [client 127.0.0.1:37114] PHP   1. {main}() /home/sails/Desktop/sails-codeathon/php-code/cat-web/testDb.php:0
+[Wed Mar 15 18:10:41.492853 2017] [:error] [pid 24397] [client 127.0.0.1:37388] 
+[Wed Mar 15 18:10:48.065344 2017] [:error] [pid 25140] [client 127.0.0.1:37390] , referer: http://cat-web/login.php
+[Wed Mar 15 18:12:02.777140 2017] [:error] [pid 24406] [client 127.0.0.1:37408] 
+[Wed Mar 15 18:12:08.839551 2017] [:error] [pid 24393] [client 127.0.0.1:37410] , referer: http://cat-web/login.php
+[Wed Mar 15 18:12:08.848147 2017] [:error] [pid 24393] [client 127.0.0.1:37410] , referer: http://cat-web/login.php
