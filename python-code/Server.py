@@ -16,16 +16,18 @@ app.secret_key = 'pavanarya'
 app.config['SESSION_TYPE'] = 'filesystem'
 
 
-@app.route('/', methods=['GET', 'POST']
+@app.route('/', methods=['GET', 'POST'])
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
         username = request.form['username']
         psw = request.form['psw']
 
-        if username == "paryasomayajulu" and psw == "anmurthy@123":
-            session['username'] = username
-            return redirect('/admin/posts',code=302)
+        users = database.login(username,psw)
+
+        if(users.length > 0):
+            session['user'] = users[0]
+            return redirect('/home', code=302)
 
     return render_template('login.html')
 

@@ -6,3 +6,4 @@ sudo pip install pyopenssl
 sudo pip install pyopenssl --upgrade
 
 sudo pip install Flask
+sudo pip install pymysql
