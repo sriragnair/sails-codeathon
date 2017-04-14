@@ -16,7 +16,7 @@ database = config.get('Database', 'database')
 def sqlConnect():
     db = MySQLdb.connect(host=host,user=username,passwd=password,db=database, charset='utf8')
     return db
-def login(username,password):
+def login_db(username,password):
     conn = sqlConnect()
     cursor = conn.cursor()
 
