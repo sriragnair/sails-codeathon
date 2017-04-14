@@ -1,5 +1,5 @@
 from flask import Flask, render_template,Response,jsonify,session,redirect,make_response
-from database import *
+from database import login_db
 import json
 from flask import request
 
@@ -23,14 +23,16 @@ def login():
         username = request.form['username']
         psw = request.form['psw']
 
-        users = database.login(username,psw)
+        users = login_db(username,psw)
 
-        if(users.length > 0):
+        if(users.__len__() > 0):
             session['user'] = users[0]
             return redirect('/home', code=302)
 
     return render_template('login.html')
-
+@app.route('/home', methods=['GET'])
+def home():
+    return render_template('home.html')
 
 if __name__ == '__main__':
-    app.run(threaded=True, host='0.0.0.0', port=int(port))
+    app.run(threaded=True, host='0.0.0.0', port=5002)
