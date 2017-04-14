@@ -5,7 +5,7 @@ Base framework code for php based web-app
 The site can be accessed at http://localhost/cat-web/index.php
 
 Run this command EVERYTIME changes are made:
-$ sudo R -cp /home/sails/Desktop/sails/sails-codeathon/php-code/cat-web/ /var/www/html/
+$ sudo cp -R /home/sails/Desktop/sails/sails-codeathon/php-code/cat-web/ /var/www/html/
 
 password: sails@123
 
